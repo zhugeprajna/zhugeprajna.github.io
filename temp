@@ -1,0 +1,14 @@
+lichess i18n?
+
+value
+
+i18n.site.key
+
+trans.site.key()
+
+val `key`: I18nKey = "key"
+
+<string name="key">value</string>
+
+/** value */
+    key: string;
