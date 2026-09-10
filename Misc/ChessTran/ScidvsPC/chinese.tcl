@@ -2,7 +2,7 @@
 # Chinese language support for Scid vs PC.
 # Translated by Zhuge Prajna
 # Released on Sep 25, 2025
-# Updated on Feb 20, 2026
+# Updated on Sep 10, 2026
 #
 
 addLanguage Z Chinese 0 utf8
@@ -227,14 +227,10 @@ menuText Z OptionsBackColourGlobal "全局(G)" 3 {全局背景颜色}
 menuText Z OptionsMainLineColour "主线箭头(M)" 5 {主线箭头}
 menuText Z OptionsVarLineColour "变着箭头(V)" 5 {变着箭头}
 menuText Z OptionsEngineLineColour "引擎箭头(E)" 5 {引擎箭头}
-# ====== TODO To be translated ======
-menuText Z OptionsArrows "Arrows" 0 {Arrow options}
-# ====== TODO To be translated ======
-menuText Z OptionsArrowsWidth "Arrow Width" 5 {Thickness of board arrows}
-# ====== TODO To be translated ======
-menuText Z OptionsArrowsLength "Arrow Length" 6 {Length of board arrows}
-# ====== TODO To be translated ======
-menuText Z OptionsArrowsColourise "Colourise EnginePV" 0 {Fade the engine arrow colours per MultiPV rank}
+menuText Z OptionsArrows "箭头(A)" 4 {箭头选项}
+menuText Z OptionsArrowsWidth "箭头宽度(W)" 6 {棋盘箭头的粗细}
+menuText Z OptionsArrowsLength "箭头长度(L)" 6 {棋盘箭头的长度}
+menuText Z OptionsArrowsColourise "着色引擎 PV(C)" 9 {按 MultiPV 排名淡化引擎箭头颜色}
 menuText Z OptionsRowColour "行颜色(R)" 4 {默认树状图/开局库行颜色}
 menuText Z OptionsHighlightColour "高亮颜色(H)" 5 {默认文本高亮颜色}
 menuText Z OptionsSwitcherColour "切换器(S)" 4 {默认数据库切换器颜色}
@@ -359,8 +355,7 @@ translate Z RaiseWindows {置顶窗口}
 translate Z AutoPlay {自动播放}
 translate Z TrialMode {试走模式}
 translate Z KeepOpen {启动后保持打开}
-# ====== TODO To be translated ======
-translate Z BigIcons {Big Icons}
+translate Z BigIcons {大图标}
 
 # General buttons:
 translate Z Apply {应用}
@@ -988,7 +983,7 @@ translate Z TwinChecker {重复对局检查器}
 translate Z TwinCheckTournament {赛事中的对局数：}
 translate Z TwinCheckNoTwin {无重复  }
 translate Z TwinCheckNoTwinfound {未检测到此对局的重复项。\n要在此窗口中显示重复对局，您必须先使用“删除重复对局”功能。}
-translate Z TwinCheckTag {共享标签…}
+translate Z TwinCheckTag {共享标签...}
 translate Z TwinCheckFound1 {Scid 找到 $result 个重复对局}
 translate Z TwinCheckFound2 { 并已设置其删除标记}
 translate Z TwinCheckNoDelete {此数据库中没有可删除的对局。}
@@ -1633,31 +1628,26 @@ translate Z FICSRematch {再战一局}
 translate Z FICSQuit {退出 FICS}
 translate Z FICSCensor {屏蔽}
 
-translate Z Tournament    {錦標賽}
-translate Z TourConfigure {配置錦標賽}
-translate Z TourEngineNum {引擎數量}
-translate Z TourName      {錦標賽名稱}
-translate Z TourRounds    {輪數}
-translate Z TourControl   {時間控制方式 (每步)}
-translate Z TourPer       {每步棋時間}
-translate Z TourPer2      {每局棋時間 (秒)}
-translate Z TourClocks    {顯示計時器}
-translate Z TourAnimate   {動畫顯示走棋}
-translate Z TourComments  {引擎得分以註釋形式顯示}
-translate Z TourShed      {比賽日程安排}
-translate Z TourPause     {暫停}
-translate Z TourEnd       {結束計算}
-translate Z TourWinner    {得獎者}
-# ====== TODO To be translated ======
-translate Z TourGame {Game}
-# ====== TODO To be translated ======
-translate Z TourMove {Move}
-# ====== TODO To be translated ======
-translate Z TourBase {Base}
-# ====== TODO To be translated ======
-translate Z TourInc {Inc}
-# ====== TODO To be translated ======
-translate Z TourSecs {secs}
+translate Z Tournament {锦标赛}
+translate Z TourConfigure {配置锦标赛}
+translate Z TourEngineNum {引擎数量}
+translate Z TourName {锦标赛名称}
+translate Z TourRounds {轮次}
+translate Z TourControl {时限设置}
+translate Z TourPer {每步棋时限}
+translate Z TourPer2 {每盘棋时限 (秒)}
+translate Z TourClocks {显示棋钟}
+translate Z TourAnimate {走棋动画}
+translate Z TourComments {引擎评分作为点评}
+translate Z TourShed {对局安排}
+translate Z TourPause {暂停}
+translate Z TourEnd {结束比赛}
+translate Z TourWinner {获胜者}
+translate Z TourGame {对局}
+translate Z TourMove {着法}
+translate Z TourBase {基础}
+translate Z TourInc {企业}
+translate Z TourSecs {秒}
 
 # Correspondence Chess Dialogs:
 translate Z CCDlgConfigureWindowTitle {配置通讯棋}
@@ -1673,10 +1663,10 @@ translate Z CCDlgEmailCommunication {电子邮件通信}
 translate Z CCDlgMailPrg {邮件程序：}
 translate Z CCDlgBCCAddr {（抄送/密送）地址：}
 translate Z CCDlgMailerMode {模式：}
-translate Z CCDlgThunderbirdEg {例如 Thunderbird、Mozilla Mail、Icedove……}
+translate Z CCDlgThunderbirdEg {例如 Thunderbird、Mozilla Mail、Icedove...}
 translate Z CCDlgMailUrlEg {例如 Evolution}
 translate Z CCDlgClawsEg {例如 Sylpheed Claws}
-translate Z CCDlgmailxEg {例如 mailx、mutt、nail……}
+translate Z CCDlgmailxEg {例如 mailx、mutt、nail...}
 translate Z CCDlgAttachementPar {附件参数：}
 translate Z CCDlgInternalXfcc {使用内置 Xfcc 支持}
 translate Z CCDlgConfirmXfcc {确认着法}
