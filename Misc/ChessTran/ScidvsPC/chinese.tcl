@@ -227,10 +227,10 @@ menuText Z OptionsBackColourGlobal "全局(G)" 3 {全局背景颜色}
 menuText Z OptionsMainLineColour "主线箭头(M)" 5 {主线箭头}
 menuText Z OptionsVarLineColour "变着箭头(V)" 5 {变着箭头}
 menuText Z OptionsEngineLineColour "引擎箭头(E)" 5 {引擎箭头}
-menuText Z OptionsArrows "箭头(A)" 4 {箭头选项}
-menuText Z OptionsArrowsWidth "箭头宽度(W)" 6 {棋盘箭头的粗细}
-menuText Z OptionsArrowsLength "箭头长度(L)" 6 {棋盘箭头的长度}
-menuText Z OptionsArrowsColourise "着色引擎 PV(C)" 9 {按 MultiPV 排名淡化引擎箭头颜色}
+menuText Z OptionsArrows "箭头(A)" 3 {箭头选项}
+menuText Z OptionsArrowsWidth "箭头宽度(W)" 5 {棋盘箭头的粗细}
+menuText Z OptionsArrowsLength "箭头长度(L)" 5 {棋盘箭头的长度}
+menuText Z OptionsArrowsColourise "着色引擎 PV(C)" 8 {按 MultiPV 排名淡化引擎箭头颜色}
 menuText Z OptionsRowColour "行颜色(R)" 4 {默认树状图/开局库行颜色}
 menuText Z OptionsHighlightColour "高亮颜色(H)" 5 {默认文本高亮颜色}
 menuText Z OptionsSwitcherColour "切换器(S)" 4 {默认数据库切换器颜色}
